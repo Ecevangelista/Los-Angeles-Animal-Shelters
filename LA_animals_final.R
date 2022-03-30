@@ -14,9 +14,6 @@ str(my.data)
 
 summary(my.data)
 
-
-mydata1 <- my.data                              # Duplicate data
-
 #Use lubridate to extract values from Intake Date field
 #Use dplyr to manipulate dataset and pivot the data
 #Use ggplot to create graphs
