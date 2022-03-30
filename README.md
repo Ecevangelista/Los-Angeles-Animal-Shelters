@@ -1,6 +1,9 @@
 # Exploratory Data Analysis on Los Angeles Animal Shelters  
 
-I conducted exploratory data analysis using R on LA Animal Shelter intake data captured from January 2011 – December 2013. The data includes 187,593 records of animals taken in amongst 8 shelters around Los Angeles. This exploratory data analysis could be used to help LA shelter management understand the volume of animals coming into the shelters to use for operational planning as well as prepare promotions for dog and cat adoptions.  
+I conducted exploratory data analysis using R on LA Animal Shelter intake data captured from January 2011 – December 2013. The data includes 187,593 records of animals taken in amongst 8 shelters around Los Angeles. This exploratory data analysis could be used to help LA Animal Services understand the volume of animals coming into the shelters to use for operational planning as well as prepare promotions for dog and cat adoptions.  
+
+Data Source: https://data.lacity.org/Sanitation/Animal-Services-Intake-Data/8cmr-fbcu
+
 
 ### Data Preprocessing  
 Each record included values for Shelter, Animal ID, Intake Date, Intake Type, Animal Type, and Breed 1. When looking at breeds for cats and dogs, I used the values from the Breed 1 column, since there were incomplete records for Group and Breed 2. 
